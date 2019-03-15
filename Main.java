@@ -36,7 +36,7 @@ public class Main extends Application{
 	    BorderPane bp = new BorderPane();
 	    GridPane gp = new GridPane();
 
-	    Scene scene = new Scene(bp, 100, 160);
+	    Scene scene = new Scene(bp, 170, 215);
 	    scene.getStylesheets().add("styles.css");
 
 	    Button[] buttons = new Button[10];
@@ -117,8 +117,8 @@ public class Main extends Application{
 
 	    //hacer los botones.setEventHandler(MouseEvent.MOUSE_CLICKED, new BotonCalculadorHandler());
 
-	    gp.setHgap(1);
-	    gp.setVgap(1);
+	    gp.setHgap(15);
+	    gp.setVgap(15);
 
 	    //el valor del result tiene que ser global para que también lo puedan usar en todos los métodos
 	  	result = new Label(result2 + "");
