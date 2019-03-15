@@ -1,0 +1,16 @@
+.opButton{
+	-fx-background-color: orange;
+	-fx-border-color: #333;
+
+}
+.opButton: hover{
+	-fx-background-color: yellow;
+	-fx-border-color: #333;
+
+}
+.equals: hover{
+	-fx-background-color: gray;
+}
+.numbers: hover{
+	-fx-background-color: gray;	
+}
